@@ -16,7 +16,7 @@ if choice == "N" or choice == "n":
 	accessToken = input("wat is uw access token")
 	accessToken = "Bearer " + accessToken
 else:
-	accessToken = "Bearer Y2YzNWM4NzItMmU1Mi00MjJiLThmOWEtOTJlOGQ0ZTc2ZDA1Mjc2MmRkMDEtOGUw_PF84_45acd299-9360-406e-ad32-d0981e109a05"
+	accessToken = "Bearer "your token here" "
 
 
 r = requests.get(   "https://api.ciscospark.com/v1/rooms",
@@ -83,4 +83,4 @@ async def on_message(message):
         await message.channel.send('verzenden van data naar webex')
         post_webex (message.content)
 
-client.run('NzkzMTk3MTk5MDIxNDQxMDU0.X-owdQ.X8lWKrIUg9yAVjP5wdq6mQVNSIc')
+client.run('your discord token here')
